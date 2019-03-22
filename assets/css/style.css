@@ -6,11 +6,6 @@
 	padding:0;
 }
 
-h1, h4{
-	font-family: 'Roboto', sans-serif;
-	font-weight:bold;
-    text-decoration: none;
-}
 
 h1{
 	font-size:50px;
@@ -22,6 +17,7 @@ h1{
 
 p{
 	font-size:20px;
+    padding-top: 20px;
 }
 
 #title {
@@ -49,11 +45,6 @@ p{
 /*Nav*/
 header{
 	position:relative;
-}
-
-header img{
-	padding:10px;
-	display: block;
 }
 
 nav{
@@ -134,17 +125,6 @@ nav a:hover{
 	text-align:center;
 }
 
-#gradientbk{
-     background:linear-gradient( #ffd8d8, #fff );
-}
-
-#gradientbk a {
-    color: #fff;
-}
-
-#gradientbk a:hover {
-    color: #cba6a7;
-}
 
 #portpage h1{
     text-align:center;
@@ -189,10 +169,16 @@ nav a:hover{
 	width:50%;
 }
 
-div.col.c3 a{
+div.col.c2 a{
+    text-decoration: none;
+    color: #ffc6c6;
+}
+
+div.col.c2 a:hover{
     text-decoration: none;
     color: #cba6a7;
 }
+
 
 /*cta*/
 #cta{
